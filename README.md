@@ -10,6 +10,6 @@ Backup your VKontakte friend's contacts to csv file.
 
 ## Usage
 
-```
-python vk_contacts_backup.py your app ID> <your login (email)> <your PW>
+```bash
+python vk_contacts_backup.py <your app ID> <your login (email)> <your PW>
 ```
