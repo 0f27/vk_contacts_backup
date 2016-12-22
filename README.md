@@ -17,6 +17,6 @@ python vk_contacts_backup.py <your app ID> <your login (email)> <your PW>
 then you can filter only those who has contacts
 
 ```awk
-awk -F, $5!=""||$6!="" {print $3,$2,$5,$6; x++} END {print x} contacts_vk.csv
+awk -F, '$5!=""||$6!="" {print $3,$2,$5,$6; x++} END {print x}' contacts_vk.csv
 ```
 
